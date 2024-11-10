@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { MatTableModule } from '@angular/material/table';
 
 @Component({
-  selector: 'app-product-list',
+  selector: 'basic-product-list',
   standalone: true,
   imports: [CommonModule, MatTableModule],
   templateUrl: './product-list.component.html',

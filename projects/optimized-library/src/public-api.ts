@@ -2,5 +2,5 @@
  * Public API Surface of optimized-library
  */
 
-export * from './lib/optimized-library.service';
-export * from './lib/optimized-library.component';
+export * from './lib/products';
+export * from './lib/services/product.service';

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BasicLibraryComponent } from './basic-library.component';
+import { ProductStepperComponent } from './product-stepper.component';
 
-describe('BasicLibraryComponent', () => {
-  let component: BasicLibraryComponent;
-  let fixture: ComponentFixture<BasicLibraryComponent>;
+describe('ProductStepperComponent', () => {
+  let component: ProductStepperComponent;
+  let fixture: ComponentFixture<ProductStepperComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BasicLibraryComponent]
+      imports: [ProductStepperComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BasicLibraryComponent);
+    fixture = TestBed.createComponent(ProductStepperComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

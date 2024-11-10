@@ -1,0 +1,11 @@
+<mat-horizontal-stepper linear>
+    <mat-step *ngFor="let product of products; let i = index">
+      <ng-template matStepLabel>{{ product.name }}</ng-template>
+      <p>{{ product.description }}</p>
+      <p>{{ product.price | currency }}</p>
+      <div>
+        <button mat-button matStepperPrevious *ngIf="i > 0">Back</button>
+        <button mat-button matStepperNext *ngIf="i < products.length - 1">Next</button>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>

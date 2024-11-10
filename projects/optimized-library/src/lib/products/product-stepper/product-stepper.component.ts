@@ -5,7 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { ProductService, Product } from '../../services/product.service';
 
 @Component({
-  selector: 'app-product-stepper',
+  selector: 'optimized-product-stepper',
   standalone: true,
   imports: [CommonModule, MatStepperModule, MatButtonModule],
   templateUrl: './product-stepper.component.html',
