@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ProductService, Product } from '../../services/product.service';
 import { CommonModule } from '@angular/common';
 import { MatTableModule } from '@angular/material/table';
@@ -14,7 +14,7 @@ export class ProductListComponent implements OnInit {
   displayedColumns: string[] = ['id', 'name', 'price', 'description'];
   dataSource: Product[] = [];
 
-  constructor(private productService: ProductService) {}
+  private productService = inject(ProductService);
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe((products) => {

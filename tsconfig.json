@@ -9,6 +9,9 @@
       ],
       "optimized-library": [
         "./dist/optimized-library"
+      ],
+      "optimized-library/dialog": [
+        "./dist/optimized-library/dialog"
       ]
     },
     "outDir": "./dist/out-tsc",

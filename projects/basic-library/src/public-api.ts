@@ -4,3 +4,4 @@
 
 export * from './lib/products';
 export * from './lib/services/product.service';
+export * from './lib/dialog/dialog.component';

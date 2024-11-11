@@ -8,7 +8,8 @@ import { MatTableModule } from '@angular/material/table';
   standalone: true,
   imports: [CommonModule, MatTableModule],
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.scss']
+  styleUrls: ['./product-list.component.scss'],
+  providers: [ProductService]
 })
 export class ProductListComponent implements OnInit {
   displayedColumns: string[] = ['id', 'name', 'price', 'description'];
