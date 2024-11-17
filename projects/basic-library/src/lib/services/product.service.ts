@@ -19,6 +19,6 @@ export class ProductService {
   ];
 
   getProducts(): Observable<Product[]> {
-    return of(this.products);
+    return of([]);
   }
 }

@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start:sample": "ng serve",
-    "build:sample": "ng build",
+    "build:sample": "ng build app-sample",
     "build:basic:lib": "ng build basic-library",
     "build:optimized:lib": "ng build optimized-library",
     "watch": "ng build --watch --configuration development",
