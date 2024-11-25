@@ -1,27 +1,23 @@
-# MyMonorepo
+# Angular Libraries Sample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+
+An Angular project showcasing best practices and techniques for optimizing libraries. This sample includes strategies for reducing bundle size, improving build performance, and enhancing runtime efficiency. Perfect for developers looking to elevate their Angular libraries with optimized code, faster load times, and a better user experience.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Build the different solutions
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The build artifacts will be stored in the `dist/` directory.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Run `npm run build:sample` to build the app sample
+- Run `npm run build:basic:lib` to build the sample lib project. 
+- Run `npm run build:optimized:lib` to build the improved lib project. 
+- In order to change the dependencies between the basic and advanced library you will need to compile the library desired and change your reference in the app.component accordingly
 
 ## Installation
 
-Attention, in order to compile the app sample it is necessary to build the library attached
+- Npm install
+- In order to compile the app sample it is necessary to build the library attached
